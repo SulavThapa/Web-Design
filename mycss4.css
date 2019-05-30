@@ -1,0 +1,19 @@
+		.row1{
+			display: flex;
+		}
+		.leftcolumn1{
+			flex: 60%;
+			padding-right: 27px;
+			}
+			.rightcolumn1{
+				flex: 40%;
+			}
+		.card1{
+			background-color: white;
+			padding:0px;
+			margin-top: 10px;
+		}
+		.boxshadow3{
+			box-shadow: 5px 5px 5px #babcc1;
+		}
+		

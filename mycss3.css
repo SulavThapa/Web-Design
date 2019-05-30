@@ -1,0 +1,32 @@
+	.row2{
+		display:flex;
+	}
+	.left{
+		flex: 25%;
+	}
+	.middle{
+		flex: 25%;
+	}
+	.middle1{
+		flex: 25%;
+	}
+	.right{
+		flex: 25;
+	}
+	.card2{
+			background-color: white;
+			padding:0px;
+			margin-top: 10px;
+		}
+	.boxshadow2{
+			box-shadow: 5px 5px 5px lightyellow;
+		}
+		.footer {
+		    padding: 50px;
+		    text-align: center;
+		    background: #55565b;
+		    margin-top: 20px;
+		    color: black;
+		}
+
+	

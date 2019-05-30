@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Contact Form">
+	<meta name="keywords" content="HTML, CSS, Javascript">
+	<meta name="author" content="Sulav Thapa">
+	<link rel="stylesheet" type="text/css" href="mycss1.css">
+	<link rel="stylesheet" type="text/css" href="mycss4.css">
+	<title>Contact Us</title>
+	<style type="text/css">
+	body{
+		background-color: #d4d6d8;
+	}
+		a:link{color: white;}
+		a:visited{color: white;}
+		a:hover{color: yellow;}
+		a:active{color: white;} 
+	</style>
+</head>
+<body style="padding-top: 0px;padding-left: 0px;padding-right: 0px;margin-top: 0px;margin-right: 0px;margin-left: 0px;margin-bottom: 0px;">
+	<table width="100%" style="background-color: black; padding-top: 15px; padding-bottom: 15px;">
+	 <tr>
+		<td style="padding-left: 30px;"><img src="menu.png"></td>	 	
+		<td style="padding-left: 30px;"><a href="homepage.html" style="text-decoration: none;">HOME</a></td>
+		<td style="padding-left: 30px;"><a href="portfolio.html" style="text-decoration: none;">PORTFOLIO</a></td>
+		<td style="padding-left: 40px;"><a href="blog.html" style="text-decoration: none;">BLOG</a></td>
+		<td style="padding-left: 30px;"><a href="research.html" style="text-decoration: none;">RESEARCH</a></td>
+		<td style="padding-left: 30px;"><a href="query.html" style="text-decoration: none;">CONTACT US</a></td>
+		</tr>
+	</table>	
+	<div class="row1">
+		<div class="leftcolumn1">
+			<div class="card1" style="background-color: #d4d6d8; margin-top: 70px;">
+				<img src="bg.png" width="100%">
+			</div>
+		</div>
+		<div class="rightcolumn1" style="background-color: #d4d6d8;">
+				<div class="card1" style="margin-top: 120px; margin-left: 55px;border-right-width: 250px;margin-right: 250px; background-color: #d4d6d8;">
+					<h3 style="margin-bottom: 0px; margin-left: 70px; color: #000000;">Contact US</h3>
+					<form name="contact" onsubmit="form_()" >
+					<input type="text" name="First Name" placeholder=" First Name" style="margin-left: 25px; margin-top: 25px; width: 250px; height: 40px;">
+					<br><br>
+
+					<input type="text" name="Last Name" placeholder=" Last Name" style="margin-left: 25px;  width: 250px; height: 40px;">
+					<br><br>
+        
+					<input type="email" name="Email" placeholder=" something@domain.com" style="margin-left: 25px;  width: 250px; height: 40px;">
+					<br><br>
+
+         			<textarea name="Query" rows="7" cols="30" placeholder=" Write your Query" style="margin-left: 25px; width: 250px;"></textarea><br><br>
+
+       				<input type="Submit" name="onsubmit" value="Send" style="width: 260px; height: 30px; margin-left: 25px; margin-bottom: 20px;">
+					</form>
+		</div>
+		</div>
+		
+		<script type="text/javascript">
+			function form_() {
+				var fname=document.forms["contact"]["First Name"].value;
+				var lname=document.forms["contact"]["Last Name"].value;
+				var email=document.forms["contact"]["Email"].value;
+				var query=document.forms["contact"]["Query"].value;
+			
+			if (fname=="" || lname=="" || email=="" || query=="" )
+			 {
+			 	alert("Enter all the data.");
+			}
+			else
+			{
+				alert("Welcome to the page");
+			}
+		}
+		</script>
+</body>
+</html>
+

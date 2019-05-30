@@ -1,0 +1,30 @@
+body{
+			font-family: Georgia, serif;
+			padding: 25px;
+			background:#dcdfe5;
+			color: black;
+		}
+		.row{
+			display: flex;
+		}
+		.leftcolumn{
+			flex: 30%;
+			padding-right: 27px;
+			}
+			.rightcolumn{
+				flex: 65%;
+			}
+		.card{
+			background-color: white;
+			padding:0px;
+			margin-top: 10px;
+		}
+		.footer {
+		    padding: 90px;
+		    text-align: center;
+		    background: #54575b;
+		    margin-top: 20px;
+		}
+		.boxshadow{
+			box-shadow: 10px 10px 5px #babcc1;
+		}

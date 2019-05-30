@@ -1,0 +1,40 @@
+		body{
+			font-family: Georgia, serif;
+			padding: 25px;
+			background:#dcdfe5;
+			color: black;
+		}
+		h1,h2,h3,h4,h5,h6
+		{
+			color: #000000;
+		}
+		p{
+			color:#3bc5b9;
+		}
+		.row{
+			display: flex;
+		}
+		.leftcolumn{
+			flex: 70%;
+			}
+		.rightcolumn{
+			flex: 30%;
+			padding-left: 25px;
+		}
+		.card{
+			background-color: white;
+			padding:0px;
+			margin-top: 10px;
+		}
+		.footer {
+		    padding: 50px;
+		    text-align: center;
+		    background: #55565b;
+		    margin-top: 20px;
+		    color: black;
+		}
+		.boxshadow{
+			box-shadow: 10px 10px 10px #babcc1;
+		}
+		
+		
